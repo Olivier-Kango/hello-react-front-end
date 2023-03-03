@@ -27,9 +27,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Hello Rails Backend app <a id="about-project"></a>
+# 📖 Hello React Front-end <a id="about-project"></a>
 
-> The Hello Rails Backend app is about displaying the random greeting in the browser!!!.
+> This repo is a simple React project that displays random greeting messages provided by the rails API app:
+[Hello_Rails_Back-end](https://github.com/Olivier-Kango/hello-rails-back-end)
 
 <!-- <div align="center">
 Please click on the video below to more explanation
@@ -222,6 +223,7 @@ I would like to thank:
   - check the [Getting Started](#getting-started) section to have a complete guid on how to setup and run teh project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 ## 📝 License <a id="license"></a>
