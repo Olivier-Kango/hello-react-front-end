@@ -1,70 +1,232 @@
-# Getting Started with Create React App
+<a id="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/108806646/219856388-8866e42b-205f-4f61-9331-e8eedbb1c823.png" alt="logo" width="200"  height="auto" />
+   <br/>
+  <h2>README</h2>
+</div>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
+# 📖 Hello Rails Backend app <a id="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> The Hello Rails Backend app is about displaying the random greeting in the browser!!!.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- <div align="center">
+Please click on the video below to more explanation
 
-### `npm test`
+## Video for explanation
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<div align="center">
+  <a href="https://www.loom.com/share/dbdff12cc31548deaf512e2f43b0de7b">
+    <img width="600" alt="expenses_list" src="https://user-images.githubusercontent.com/108806646/219854544-36a9104f-5329-4c0f-969d-e51bd8fa5808.png">
+  </a>
+</div> -->
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- <div align="center">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ## ERD Diagram <a id="diagram">
+  <img width="600" alt="erd_diagram" src="https://user-images.githubusercontent.com/108806646/219854705-b1d9bcf2-1245-417d-b63a-b3d144e32779.png">
+</div> -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Built With <a id="built-with"></a>
 
-### `npm run eject`
+### Tech Stack <a id="tech-stack"></a>
+  <details>
+    <summary>Backend</summary>
+    <ul>
+      <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Frontend</summary>
+    <ul>
+      <li><a href="https://reactjs.org/">React.js</a></li>
+    </ul>
+  </details>
+  <details>
+    <summary>Database</summary>
+    <ul>
+      <li><a href="https://www.postgresql.org/">Postgresql</a></li>
+    </ul>
+   </details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Features -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Key Features <a id="key-features"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **The App can display random Greeting**
+- **Get the random greeting from API**
+- **Display the random greeting Greeting component**
 
-## Learn More
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- LIVE DEMO -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Live Demo <a id="live-demo"></a>
 
-### Code Splitting
+> Please click the link below to open our webpage in your browser
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Live Demo Link](https://)
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- GETTING STARTED -->
 
-### Making a Progressive Web App
+## 💻 Getting Started <a id="getting-started"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To get a local copy up and running, follow these steps.
 
-### Advanced Configuration
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+In order to run this project you need:
+
+- IDE or code editor: **VsCode, atom, sublime**...
+- To have [Ruby](https://www.ruby-lang.org/en/), [RoR gem](https://rubyonrails.org/) and [Git](https://git-scm.com/) installed on your system.
+
+### Setup
+
+Clone this project on your local machine using the following command on your terminal:
+
+```sh
+  https://github.com/Olivier-Kango/hello-rails-back-end.git
+```
+
+### Install
+
+Run the following command to install all project's dependencies:
+
+```sh
+bundle install
+```
+
+Run the following command to install Rspec for tests:
+
+```sh
+gem install rspec
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  rails s
+```
+
+## Run Tests
+
+Run the following command to catch all style errors:
+
+```sh
+rubocop
+```
+
+Run the following command for the rspec tests(with details):
+
+```sh
+rspec ./spec --format documentation
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+- [Heroku](https://www.heroku.com/), or
+- [Render](https://render.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Author <a id="authors"></a>
+
+👤 **Olivier Kango**
+
+- GitHub: [@github_olivier](https://github.com/Olivier-Kango)
+- Twitter: [@twitter_olivier](https://twitter.com/olivierkango1)
+- LinkedIn: [@LinkedIn_olivier](https://www.linkedin.com/in/olivier-kango-b990601b8/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a id="future-features"></a>
+
+> Features to add to the project.
+- **Deploy the project on Render.com**
+- **Make a Mobile design for the App**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a id="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Olivier-Kango/hello-rails-back-end/issues/new).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a id="support"></a>
+
+Give this project a star if you like it !
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a id="acknowledgements"></a>
+
+I would like to thank:
+
+- Theophile Kango and My cording partners.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a id="faq"></a>
+
+- **Do I have to have any previous knowledge about ruby to use this project?**
+
+  - No!
+
+- **How to use this project?**
+
+  - check the [Getting Started](#getting-started) section to have a complete guid on how to setup and run teh project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- LICENSE -->
+## 📝 License <a id="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
